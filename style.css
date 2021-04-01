@@ -1,0 +1,84 @@
+body{
+    font-family: 'Simonetta', cursive;;
+}
+.max-viewport{
+    min-height: 100vh;
+}
+.viewport-50{
+    min-height: 50vh;
+}
+.filler{
+    background: linear-gradient(to left, rgba(92, 92, 197, 0.3), rgba(170, 143, 163, 0.3)), url('http://cosmos.tt123.com.au/wp-content/uploads/2020/02/191010_nature.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.fillers{
+    background: linear-gradient(to left, rgba(218, 14, 25, 0.3), rgba(170, 143, 163, 0.3)), url('https://wallpapercave.com/wp/wp4766934.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+#team img{
+    margin-top: -100px;
+}
+
+#team .card:hover{
+    background: grey;
+    color: white;
+}
+
+.lower-banner{
+    background: linear-gradient(to left, rgba(218, 14, 25, 0.3), rgba(170, 143, 163, 0.3));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.lower-banner img{
+    width: 200px;
+    height: auto;
+}
+
+.about-sectoin{
+    min-width: 50vh;
+}
+.about-sectoin img{
+    width: 200px;
+    height: 200px;
+}
+
+@media (max-width:800px){
+    .about-sectoin img{
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
+.icons{
+ font-size: 30px;
+ color:white;
+ 
+ 
+ 
+
+
+}
+.xx:hover{
+    color: rgb(120, 120, 241);
+    cursor: pointer;
+    transform: scale(1.3);
+    
+    transition: .5s;
+    
+} 
+
+.navbar ul li a{
+    color: white;
+}
